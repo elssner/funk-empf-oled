@@ -3,7 +3,6 @@
     "description": "",
     "dependencies": {
         "oled": "github:calliope-net/oled#v0.0.4",
-        "bit": "github:calliope-net/bit#v1.2.3",
         "core": "*",
         "v1": "*",
         "radio": "*"

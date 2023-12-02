@@ -10,6 +10,12 @@ input.onButtonEvent(Button.AB, input.buttonEventClick(), function () {
 radio.onReceivedString(function (receivedString) {
     OLEDtext.textZeile(oled.eDisplayFormat.x16x8, receivedString)
 })
+function Kommentar () {
+    oled.comment("elssner/funk-empf-oled")
+    oled.comment("Erweiterungen laden:")
+    oled.comment("radio")
+    oled.comment("calliope-net/oled")
+}
 let OLEDtext: oled.oledclass = null
 radio.setGroup(12)
 radio.setTransmitPower(7)
