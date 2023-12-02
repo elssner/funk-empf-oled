@@ -1,0 +1,27 @@
+{
+    "name": "i2c-funk-oled",
+    "description": "",
+    "dependencies": {
+        "oled": "github:calliope-net/oled#master",
+        "bit": "github:calliope-net/bit#master",
+        "core": "*",
+        "v1": "*",
+        "radio": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.27",
+        "targetId": "calliopemini"
+    },
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "blocksprj"
+}
